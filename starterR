@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 themeEDNW <- function (base_size = 10, base_family = "") {
     half_line <- base_size/2
     theme(
