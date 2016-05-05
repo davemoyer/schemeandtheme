@@ -1,4 +1,4 @@
-*                                    s2color.scheme
+*  
 
 * s2 scheme family with a naturally white background (white plotregions and
 * lightly colored background) and color foreground (lines, symbols, text, etc).
@@ -20,10 +20,9 @@
 *  graphs, plots, or other classes and their parsers.  Their contents are
 *  specific to the use and may only be understood by the caller.
 
-*!  version 1.2.5   16jun2011
 
 sequence 1210
-label "s2 color"
+label "ednw"
 
 system   naturally_white  1
 
@@ -203,9 +202,9 @@ numticks_g horizontal_tminor  0
 numticks_g vertical_tminor    0
 
 
-color             black
-color background  ltbluishgray
-color foreground  black
+color               black
+color background    white 
+color foreground    black
 
 color symbol         black
 color backsymbol     gs8
@@ -314,8 +313,8 @@ color p13     erose
 color p14     gold
 color p15     bluishgray
 
-color pboxlabelfill  bluishgray
-color plabelfill     bluishgray
+color pboxlabelfill  white
+color plabelfill     white
 
 color pmarkback      white
 color pmarkbkfill    white
